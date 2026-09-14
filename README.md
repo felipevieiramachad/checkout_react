@@ -91,18 +91,3 @@ checkout-react/
 - CSS puro, responsivo e com foco em acessibilidade (estados de foco
   visíveis, `aria-live` no status de processamento, tabela adaptada em
   telas estreitas)
-
-## Fluxo de trabalho sugerido (Git/GitHub)
-
-Para tratar as alterações como algo que impacta o projeto inteiro:
-
-1. Crie uma branch por funcionalidade, por exemplo:
-   - `feature/tela-carrinho`
-   - `feature/formulario-pagamento`
-   - `feature/telas-resultado`
-2. Faça commits pequenos e descritivos (ex.: `feat: valida numero do
-   cartao com zod`, `fix: corrige calculo do subtotal`).
-3. Abra um Pull Request para a branch principal descrevendo o que mudou
-   e por quê, e revise o diff antes de mesclar.
-4. Mantenha o `README.md` atualizado sempre que a estrutura ou as regras
-   de negócio mudarem.
